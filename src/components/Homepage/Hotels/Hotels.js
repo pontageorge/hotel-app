@@ -13,6 +13,7 @@ export default function Hotels({ rating, people }) {
       if (!appContext.hotels) appContext.getHotels();
     };
     handleGetHotels();
+    //eslint-disable-next-line react-hooks/exhaustive-deps
   }, [appContext.hotels]);
 
   return (

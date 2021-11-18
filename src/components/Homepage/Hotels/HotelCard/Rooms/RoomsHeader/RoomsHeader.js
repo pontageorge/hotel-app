@@ -14,8 +14,8 @@ export default function RoomsHeader({ roomsVisible, setRoomsVisible, relevantRoo
   `;
 
   const returnRoomsComponentHeader = () => {
-    let roomWord = relevantRoomList.length !== 1 ? " rooms" : " room";
-    let matchWord = relevantRoomList.length !== 1 ? " match" : " matches";
+    let roomWord = relevantRoomList && relevantRoomList.length !== 1 ? " rooms" : " room";
+    let matchWord = relevantRoomList && relevantRoomList.length !== 1 ? " match" : " matches";
 
     return relevantRoomList ? (
       relevantRoomList.length + roomWord + matchWord + " your search"

@@ -57,6 +57,7 @@ export default function Rooms({ hotelID, people }) {
       }
     };
     getRoomInformation();
+    //eslint-disable-next-line react-hooks/exhaustive-deps
   }, [people]);
 
   useEffect(() => {
@@ -73,6 +74,7 @@ export default function Rooms({ hotelID, people }) {
 
       setRelevantRoomList(relevantRooms);
     }
+    //eslint-disable-next-line react-hooks/exhaustive-deps
   }, [people, roomList]);
 
   return (
