@@ -53,6 +53,7 @@ export default function Rooms({ hotelID, people }) {
     const getRoomInformation = async () => {
       if (!roomList) {
         let hotelRooms = await getHotelRoomTypes(hotelID);
+        console.log(hotelRooms);
         setRoomList(hotelRooms.rooms);
       }
     };
