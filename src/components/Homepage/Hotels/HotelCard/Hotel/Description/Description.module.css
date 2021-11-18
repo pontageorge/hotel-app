@@ -1,0 +1,7 @@
+.componentWrap > p {
+  font-size: 12px;
+
+  color: var(--descriptionTextColor);
+
+  margin: var(--contentGap) 20px;
+}

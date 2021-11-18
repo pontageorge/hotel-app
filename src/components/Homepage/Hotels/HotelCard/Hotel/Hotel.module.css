@@ -1,0 +1,25 @@
+.hotelWrap {
+  display: flex;
+  justify-content: flex-start;
+
+  margin: 0 0 var(--contentGap) 0;
+  padding: 10px;
+
+  box-shadow: var(--defaultBoxShadow);
+  border-radius: var(--borderRadius);
+
+  width: 700px;
+}
+
+.hotelWrap > img {
+  width: 200px;
+  height: 200px;
+
+  border-radius: var(--borderRadius);
+
+  margin: 0 var(--contentGap) 0 0;
+}
+
+.informationWrap > h3 {
+  margin: 0 0 var(--contentGap) 0;
+}

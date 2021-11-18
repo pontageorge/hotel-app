@@ -1,0 +1,4 @@
+.ratingWrap > svg {
+  color: #febb02;
+  margin: 0 0 var(--contentGap) 0;
+}

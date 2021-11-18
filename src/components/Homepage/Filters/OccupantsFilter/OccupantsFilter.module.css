@@ -1,0 +1,28 @@
+.componentWrap {
+  display: flex;
+}
+
+.peopleFilterWrap {
+  display: flex;
+  align-items: center;
+
+  margin: 0 var(--contentGap);
+}
+
+.peopleFilterWrap > p {
+  user-select: none;
+
+  margin: 0 5px;
+
+  font-weight: bold;
+  font-size: 18px;
+
+  color: var(--mainTextColor);
+}
+
+.peopleFilterWrap > svg {
+  user-select: none;
+  cursor: pointer;
+
+  color: var(--mainTextColor);
+}

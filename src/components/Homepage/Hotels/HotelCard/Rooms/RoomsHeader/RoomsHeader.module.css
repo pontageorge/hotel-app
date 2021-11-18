@@ -1,0 +1,8 @@
+.roomHeaderWrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.roomHeaderWrap > h3 {
+  margin: 0;
+}

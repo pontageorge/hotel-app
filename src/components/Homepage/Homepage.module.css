@@ -1,0 +1,16 @@
+.componentWrap {
+  width: fit-content;
+
+  padding: var(--componentsGap);
+  margin: 0 auto;
+
+  box-shadow: var(--defaultBoxShadow);
+  border-radius: var(--borderRadius);
+  background-color: var(--backgroundColor);
+}
+
+.componentWrap > h1 {
+  margin: 0 0 var(--componentsGap) 0;
+
+  text-align: center;
+}

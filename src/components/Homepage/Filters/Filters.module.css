@@ -1,0 +1,13 @@
+.componentWrap {
+  display: flex;
+  justify-content: center;
+
+  width: 420px;
+
+  padding: 10px;
+  margin: 0 auto var(--componentsGap) auto;
+
+  box-shadow: var(--defaultBoxShadow);
+  border-radius: var(--borderRadius);
+  background-color: var(--backgroundColor);
+}

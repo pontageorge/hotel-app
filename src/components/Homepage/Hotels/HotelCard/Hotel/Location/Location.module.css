@@ -1,0 +1,24 @@
+.locationWrap {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.locationWrap > a,
+.locationWrap > p {
+  font-size: 14px;
+  font-weight: bold;
+
+  color: var(--mainTextColor);
+
+  margin: 0;
+}
+
+.locationWrap > a:before {
+  color: var(--mainTextColor);
+  content: "\b7";
+  display: inline-block;
+  font-weight: 600;
+  padding: 0 5px;
+  text-decoration: none;
+  transform: scale(1.4);
+}

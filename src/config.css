@@ -1,0 +1,16 @@
+:root {
+  --componentsGap: 20px;
+  --contentGap: 10px;
+
+  --borderRadius: 5px;
+  --backgroundColor: #f9f9f9;
+  --mainTextColor: #333;
+  --descriptionTextColor: #838383;
+  --successColor: #50c878;
+  --errorColor: #e31837;
+  --exclamationColor: #ffd700;
+  --bottomBoxShadow: 0px 4px 6px -2px rgb(0 0 0 / 20%);
+  --defaultBoxShadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  --defaultBoxShadowHover: 0px 1px 4px 1px rgba(0, 0, 0, 0.35);
+  --secondLevelBoxShadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.2);
+}
